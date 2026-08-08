@@ -134,23 +134,42 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   color: var(--white);
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .nav-cta {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--accent);
-  color: var(--dark) !important;
   font-weight: 700;
-  font-size: 0.9rem;
-  padding: 10px 20px;
+  font-size: 0.88rem;
+  padding: 9px 18px;
   border-radius: 50px;
   transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
   white-space: nowrap;
 }
-.nav-cta:hover {
+
+.nav-cta-call {
+  background: var(--accent);
+  color: var(--dark) !important;
+}
+.nav-cta-call:hover {
   background: var(--accent-dark);
   transform: translateY(-1px);
   box-shadow: 0 6px 20px rgba(245,166,35,0.4);
+}
+
+.nav-cta-wp {
+  background: #25D366;
+  color: #ffffff !important;
+}
+.nav-cta-wp:hover {
+  background: #20ba5a;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(37,211,102,0.4);
 }
 
 .hamburger {

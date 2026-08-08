@@ -24,11 +24,39 @@ document.addEventListener('DOMContentLoaded', () => {
       hamburgerBtn.setAttribute('aria-expanded', isOpen);
       // Add mobile CTA inside nav if not already there
       if (isOpen && !navLinks.querySelector('.nav-cta-mobile')) {
-        const cta = document.createElement('a');
-        cta.href = 'tel:+905321234567';
-        cta.className = 'nav-cta-mobile';
-        cta.textContent = '📞 Hemen Ara';
-        navLinks.appendChild(cta);
+        const ctaContainer = document.createElement('div');
+        ctaContainer.className = 'nav-cta-mobile-wrap';
+        ctaContainer.style.display = 'flex';
+        ctaContainer.style.flexDirection = 'column';
+        ctaContainer.style.gap = '8px';
+        ctaContainer.style.marginTop = '12px';
+
+        const ctaCall = document.createElement('a');
+        ctaCall.href = 'tel:+905343503630';
+        ctaCall.className = 'nav-cta-mobile';
+        ctaCall.style.background = 'var(--accent)';
+        ctaCall.style.color = 'var(--dark)';
+        ctaCall.style.fontWeight = '700';
+        ctaCall.style.padding = '12px 24px';
+        ctaCall.style.borderRadius = '50px';
+        ctaCall.style.textAlign = 'center';
+        ctaCall.textContent = '📞 Hemen Ara (0534 350 36 30)';
+
+        const ctaWp = document.createElement('a');
+        ctaWp.href = 'https://wa.me/905343503630?text=Merhaba,%20bir%20m%C3%BClk%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.';
+        ctaWp.target = '_blank';
+        ctaWp.className = 'nav-cta-mobile';
+        ctaWp.style.background = '#25D366';
+        ctaWp.style.color = '#fff';
+        ctaWp.style.fontWeight = '700';
+        ctaWp.style.padding = '12px 24px';
+        ctaWp.style.borderRadius = '50px';
+        ctaWp.style.textAlign = 'center';
+        ctaWp.textContent = '💬 WhatsApp ile Yazın';
+
+        ctaContainer.appendChild(ctaCall);
+        ctaContainer.appendChild(ctaWp);
+        navLinks.appendChild(ctaContainer);
       }
     });
 
