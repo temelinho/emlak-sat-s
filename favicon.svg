@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b48"/>
+      <stop offset="100%" stop-color="#081726"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd055"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded box -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)"/>
+  <!-- House Roof & Walls -->
+  <path d="M256 90 L420 230 L386 230 L386 396 C386 409.25 375.25 420 362 420 L150 420 C136.75 420 126 409.25 126 396 L126 230 L92 230 Z" fill="none" stroke="url(#goldGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Sun / Golden Core -->
+  <circle cx="256" cy="240" r="44" fill="url(#goldGrad)"/>
+  <!-- Modern Entry Door -->
+  <path d="M216 420 L216 338 C216 325 226.5 314 239.5 314 L272.5 314 C285.5 314 296 325 296 338 L296 420" fill="url(#goldGrad)"/>
+  <!-- Chimney -->
+  <path d="M336 160 L336 120 L368 120 L368 186" fill="none" stroke="url(#goldGrad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
