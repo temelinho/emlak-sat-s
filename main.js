@@ -156,6 +156,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
+      // Trigger Google Ads conversion event
+      if (typeof gtag === 'function') {
+        gtag('event', 'conversion', { 'send_to': 'AW-18306847725/p3MrCMal2NwceO2nsZlE' });
+      }
+
       // Simulate send (no backend)
       const submitBtn = document.getElementById('contact-submit-btn');
       submitBtn.textContent = 'Gönderiliyor...';
