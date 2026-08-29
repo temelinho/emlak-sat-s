@@ -1,14 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Turkish (Default) -->
   <url>
-    <loc>https://www.alanyaemlak.com.tr/</loc>
-    <lastmod>2026-08-23</lastmod>
+    <loc>https://www.alanyaevler.com.tr/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.alanyaevler.com.tr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alanyaevler.com.tr/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.alanyaevler.com.tr/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.alanyaevler.com.tr/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.alanyaevler.com.tr/" />
+    <lastmod>2026-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- English -->
+  <url>
+    <loc>https://www.alanyaevler.com.tr/en/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.alanyaevler.com.tr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alanyaevler.com.tr/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.alanyaevler.com.tr/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.alanyaevler.com.tr/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.alanyaevler.com.tr/" />
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Russian -->
+  <url>
+    <loc>https://www.alanyaevler.com.tr/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.alanyaevler.com.tr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alanyaevler.com.tr/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.alanyaevler.com.tr/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.alanyaevler.com.tr/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.alanyaevler.com.tr/" />
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- German -->
+  <url>
+    <loc>https://www.alanyaevler.com.tr/de/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.alanyaevler.com.tr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alanyaevler.com.tr/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.alanyaevler.com.tr/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.alanyaevler.com.tr/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.alanyaevler.com.tr/" />
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Non-www redirect entry -->
   <url>
     <loc>https://alanyaevler.com.tr/</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

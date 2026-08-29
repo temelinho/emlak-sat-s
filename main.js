@@ -227,4 +227,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  /* ---- Language switcher ---- */
+  const langSwitcher = document.getElementById('lang-switcher');
+  if (langSwitcher) {
+    const langBtn = langSwitcher.querySelector('.lang-btn');
+    const langDropdown = langSwitcher.querySelector('.lang-dropdown');
+
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = langDropdown.classList.toggle('open');
+      langBtn.setAttribute('aria-expanded', isOpen);
+    });
+
+    document.addEventListener('click', () => {
+      langDropdown.classList.remove('open');
+      langBtn.setAttribute('aria-expanded', 'false');
+    });
+  }
+
 });
